@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign In</title>
+	<style>
+		.header{
+			background-color: black;
+			color: orange;
+			text-align: center;
+			height: 100px;
+			padding: 30px;
+			font-family: serif;
+		}
+		input{
+			background-color: #0807071a;
+			border: 1px solid #ffff;
+			color: black;
+		}
+		.user-details{
+			padding: 100px 500px;
+		}
+		#login{
+			font-family: cursive;
+			color: orange;
+		}
+		body{
+			background-color: #0807071a;
+			margin: 0px;
+			padding: 0px;
+		}
+		#submit{
+			padding: 10px 10px;
+			border:2px solid gray;
+			box-shadow: 5px 4px 2px gray;
+		}
+		.footer{
+			background-color: black;
+			padding: 50px 10px;
+			font-family: serif;
+			color: orange;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h2>My Portfolio</h2>
+	</div>
+	<div class="user-details">
+	<h4 id="login">Login to my profile</h4>
+	
+	<form action="Assignment.html" method="POST">
+		Username:<br>
+		<input required type="text" name="Username">
+		<br><br>
+
+		Password:<br>
+		<input required maxlength=4 type="password" name="Password">
+		<br><br><br>
+
+		<input type="submit" value="Login" id="submit">
+
+	</form>
+	</div>
+	<div class="footer">
+		Copyright &copy Tyler's Code 2018.
+	</div>
+</body>
+</html>
